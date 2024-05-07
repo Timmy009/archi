@@ -23,3 +23,9 @@
     opacity: 1; /* Show arrow on hover */
   }
   
+  .hove:hover  {
+    display: block; /* Show the image when hovering over the container */
+    background-color: red;
+    width: 40;
+height: 50;
+  }

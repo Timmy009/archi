@@ -21,6 +21,7 @@ import insta from '../assets/insta.png'
 import linked from '../assets/linked.png'
 import pint from '../assets/pint.png'
 import rep from '../assets/rep.png'
+import arrowHover from '../assets/arrow-hover.png'
 // import Slider from 'react-slick';
 // import 'slick-carousel/slick/slick.css';
 // import 'slick-carousel/slick/slick-theme.css';
@@ -143,7 +144,8 @@ function Home() {
                 <hr style={{ marginBottom: 80,  borderColor:'#b3a9a2' }} />
                 <div style={{ display: 'flex', flexDirection: 'row', marginTop: 40, height: 800 , }} >
                     <div>
-                        <img style={{ height: 1000, width: 600 }} src={rep} />
+                  
+                        <img style={{ height: 1000, width: 600,  }} src={rep} />
                     </div>
                     <div style={{
                         marginLeft: 60, overflow: 'scroll',
@@ -195,6 +197,8 @@ function Home() {
                                 temporibus asperiores quasi
                                 cupiditate. Voluptatum ducimus</p>
                         </div>
+                        {/* <img style={{ height: 20, width: 20, position:'absolute' }} src={arrowHover} /> */}
+                       <div className='hove' style={{position:'absolute'}} ><img style={{ height: 20, width: 20, display:'none'  }} className='hov' src={arrowHover} /> </div> 
                         <img style={{ marginTop: 30, width: 1200, height: 600 }} src={rep} />
                     </div>
 
