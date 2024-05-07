@@ -74,7 +74,7 @@ function Slick() {
         {data.map((item) => (
          
             <div className="card-top">
-              <img style={{height:230}}
+              <img style={{height:250}}
                 src={
                  
                      item
