@@ -144,7 +144,7 @@ function Home() {
                 <div style={{ marginRight: 35, marginLeft: 35, marginTop: 40, }} >
                 <hr style={{ marginBottom: 80, borderColor: '#b3a9a2' }} />
                 </div>
-                <div style={{ display: 'flex', flexDirection: 'row', marginTop: 40, height: 800, }} >
+                <div style={{backgroundColor:'#383838', display: 'flex', flexDirection: 'row', marginTop: 40, height: 800, }} >
                     <div>
                         <img style={{ height: 1000, width: 500, marginLeft:40, }} src={rep} />
                     </div>
